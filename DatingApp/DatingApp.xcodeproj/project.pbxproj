@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F696269291EDC0A00BC3F3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F696268291EDC0A00BC3F3D /* AppDelegate.swift */; };
+		3F69626B291EDC0A00BC3F3D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F69626A291EDC0A00BC3F3D /* SceneDelegate.swift */; };
+		3F696272291EDC0B00BC3F3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F696271291EDC0B00BC3F3D /* Assets.xcassets */; };
+		3F696275291EDC0B00BC3F3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F696273291EDC0B00BC3F3D /* LaunchScreen.storyboard */; };
+		3F69627D291EDC6200BC3F3D /* PictureCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F69627C291EDC6200BC3F3D /* PictureCollectionViewCell.swift */; };
+		3F696281291EE21500BC3F3D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F696280291EE21500BC3F3D /* HomeViewController.swift */; };
+		3F696284291EE64E00BC3F3D /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F696283291EE64E00BC3F3D /* UIColor.swift */; };
+		3F69628C291FA31700BC3F3D /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F69628B291FA31600BC3F3D /* Protocols.swift */; };
+		3F69628E291FA38000BC3F3D /* HomeViewController+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F69628D291FA38000BC3F3D /* HomeViewController+Layout.swift */; };
+		3FEE55292922DF5C008E3135 /* FullPictureCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEE55282922DF5C008E3135 /* FullPictureCollectionViewCell.swift */; };
+		3FF803EB291FBBDE002AE233 /* TextCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF803EA291FBBDE002AE233 /* TextCollectionViewCell.swift */; };
+		3FF803F0291FBE4D002AE233 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3FF803ED291FBE4D002AE233 /* Poppins-Medium.ttf */; };
+		3FF803F1291FBE4D002AE233 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3FF803EE291FBE4D002AE233 /* Poppins-Regular.ttf */; };
+		3FF803F2291FBE4D002AE233 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3FF803EF291FBE4D002AE233 /* Poppins-SemiBold.ttf */; };
+		3FF803F4291FBF0F002AE233 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF803F3291FBF0F002AE233 /* UIFont.swift */; };
+		3FF803F6291FCC71002AE233 /* AboutSectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF803F5291FCC71002AE233 /* AboutSectionReusableView.swift */; };
+		3FF803F8291FD3F0002AE233 /* ProfileInfoReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF803F7291FD3F0002AE233 /* ProfileInfoReusableView.swift */; };
+		3FF803FB291FD63E002AE233 /* Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF803FA291FD63E002AE233 /* Mock.swift */; };
+		3FF803FD291FDA60002AE233 /* ProfileInterestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF803FC291FDA60002AE233 /* ProfileInterestCollectionViewCell.swift */; };
+		B367542C1F3D3B948D854694 /* Pods_DatingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4B6C9301EDA344CE95F660B /* Pods_DatingApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F696265291EDC0A00BC3F3D /* DatingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F696268291EDC0A00BC3F3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F69626A291EDC0A00BC3F3D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3F696271291EDC0B00BC3F3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F696274291EDC0B00BC3F3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F696276291EDC0B00BC3F3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F69627C291EDC6200BC3F3D /* PictureCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureCollectionViewCell.swift; sourceTree = "<group>"; };
+		3F696280291EE21500BC3F3D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3F696283291EE64E00BC3F3D /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		3F69628B291FA31600BC3F3D /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		3F69628D291FA38000BC3F3D /* HomeViewController+Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+Layout.swift"; sourceTree = "<group>"; };
+		3FEE55282922DF5C008E3135 /* FullPictureCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullPictureCollectionViewCell.swift; sourceTree = "<group>"; };
+		3FF803EA291FBBDE002AE233 /* TextCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCollectionViewCell.swift; sourceTree = "<group>"; };
+		3FF803ED291FBE4D002AE233 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		3FF803EE291FBE4D002AE233 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		3FF803EF291FBE4D002AE233 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		3FF803F3291FBF0F002AE233 /* UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
+		3FF803F5291FCC71002AE233 /* AboutSectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutSectionReusableView.swift; sourceTree = "<group>"; };
+		3FF803F7291FD3F0002AE233 /* ProfileInfoReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoReusableView.swift; sourceTree = "<group>"; };
+		3FF803FA291FD63E002AE233 /* Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mock.swift; sourceTree = "<group>"; };
+		3FF803FC291FDA60002AE233 /* ProfileInterestCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInterestCollectionViewCell.swift; sourceTree = "<group>"; };
+		40F78D12B214E7D166F2A472 /* Pods-DatingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DatingApp.release.xcconfig"; path = "Target Support Files/Pods-DatingApp/Pods-DatingApp.release.xcconfig"; sourceTree = "<group>"; };
+		A442E1861178E53FF54F0EF6 /* Pods-DatingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DatingApp.debug.xcconfig"; path = "Target Support Files/Pods-DatingApp/Pods-DatingApp.debug.xcconfig"; sourceTree = "<group>"; };
+		E4B6C9301EDA344CE95F660B /* Pods_DatingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DatingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F696262291EDC0A00BC3F3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B367542C1F3D3B948D854694 /* Pods_DatingApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F69625C291EDC0A00BC3F3D = {
+			isa = PBXGroup;
+			children = (
+				3F696267291EDC0A00BC3F3D /* DatingApp */,
+				3F696266291EDC0A00BC3F3D /* Products */,
+				C7DD729FD4E040703E36D555 /* Pods */,
+				5A1F1D80FCF8CD4974573229 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3F696266291EDC0A00BC3F3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F696265291EDC0A00BC3F3D /* DatingApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F696267291EDC0A00BC3F3D /* DatingApp */ = {
+			isa = PBXGroup;
+			children = (
+				3F696268291EDC0A00BC3F3D /* AppDelegate.swift */,
+				3F69626A291EDC0A00BC3F3D /* SceneDelegate.swift */,
+				3F69628A291FA2E000BC3F3D /* Protocol */,
+				3F69627E291EDC6B00BC3F3D /* Cell */,
+				3F69627F291EE19D00BC3F3D /* Controller */,
+				3F696282291EE63F00BC3F3D /* Extension */,
+				3FF803F9291FD631002AE233 /* Mock */,
+				3FF803EC291FBE3D002AE233 /* Resources */,
+				3F696271291EDC0B00BC3F3D /* Assets.xcassets */,
+				3F696273291EDC0B00BC3F3D /* LaunchScreen.storyboard */,
+				3F696276291EDC0B00BC3F3D /* Info.plist */,
+			);
+			path = DatingApp;
+			sourceTree = "<group>";
+		};
+		3F69627E291EDC6B00BC3F3D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3F69627C291EDC6200BC3F3D /* PictureCollectionViewCell.swift */,
+				3FF803EA291FBBDE002AE233 /* TextCollectionViewCell.swift */,
+				3FF803F5291FCC71002AE233 /* AboutSectionReusableView.swift */,
+				3FF803F7291FD3F0002AE233 /* ProfileInfoReusableView.swift */,
+				3FF803FC291FDA60002AE233 /* ProfileInterestCollectionViewCell.swift */,
+				3FEE55282922DF5C008E3135 /* FullPictureCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		3F69627F291EE19D00BC3F3D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3F696280291EE21500BC3F3D /* HomeViewController.swift */,
+				3F69628D291FA38000BC3F3D /* HomeViewController+Layout.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3F696282291EE63F00BC3F3D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3F696283291EE64E00BC3F3D /* UIColor.swift */,
+				3FF803F3291FBF0F002AE233 /* UIFont.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		3F69628A291FA2E000BC3F3D /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				3F69628B291FA31600BC3F3D /* Protocols.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		3FF803EC291FBE3D002AE233 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3FF803ED291FBE4D002AE233 /* Poppins-Medium.ttf */,
+				3FF803EE291FBE4D002AE233 /* Poppins-Regular.ttf */,
+				3FF803EF291FBE4D002AE233 /* Poppins-SemiBold.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3FF803F9291FD631002AE233 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				3FF803FA291FD63E002AE233 /* Mock.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		5A1F1D80FCF8CD4974573229 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4B6C9301EDA344CE95F660B /* Pods_DatingApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7DD729FD4E040703E36D555 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A442E1861178E53FF54F0EF6 /* Pods-DatingApp.debug.xcconfig */,
+				40F78D12B214E7D166F2A472 /* Pods-DatingApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F696264291EDC0A00BC3F3D /* DatingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F696279291EDC0B00BC3F3D /* Build configuration list for PBXNativeTarget "DatingApp" */;
+			buildPhases = (
+				48D897BE857C23C87E442B40 /* [CP] Check Pods Manifest.lock */,
+				3F696261291EDC0A00BC3F3D /* Sources */,
+				3F696262291EDC0A00BC3F3D /* Frameworks */,
+				3F696263291EDC0A00BC3F3D /* Resources */,
+				FF4251A7750D7CC16EF1F9EB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DatingApp;
+			productName = DatingApp;
+			productReference = 3F696265291EDC0A00BC3F3D /* DatingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F69625D291EDC0A00BC3F3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					3F696264291EDC0A00BC3F3D = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 3F696260291EDC0A00BC3F3D /* Build configuration list for PBXProject "DatingApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F69625C291EDC0A00BC3F3D;
+			productRefGroup = 3F696266291EDC0A00BC3F3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F696264291EDC0A00BC3F3D /* DatingApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F696263291EDC0A00BC3F3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF803F2291FBE4D002AE233 /* Poppins-SemiBold.ttf in Resources */,
+				3FF803F0291FBE4D002AE233 /* Poppins-Medium.ttf in Resources */,
+				3F696275291EDC0B00BC3F3D /* LaunchScreen.storyboard in Resources */,
+				3F696272291EDC0B00BC3F3D /* Assets.xcassets in Resources */,
+				3FF803F1291FBE4D002AE233 /* Poppins-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48D897BE857C23C87E442B40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DatingApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF4251A7750D7CC16EF1F9EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DatingApp/Pods-DatingApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DatingApp/Pods-DatingApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DatingApp/Pods-DatingApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F696261291EDC0A00BC3F3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F69627D291EDC6200BC3F3D /* PictureCollectionViewCell.swift in Sources */,
+				3F696269291EDC0A00BC3F3D /* AppDelegate.swift in Sources */,
+				3F69626B291EDC0A00BC3F3D /* SceneDelegate.swift in Sources */,
+				3FF803EB291FBBDE002AE233 /* TextCollectionViewCell.swift in Sources */,
+				3FF803FD291FDA60002AE233 /* ProfileInterestCollectionViewCell.swift in Sources */,
+				3F69628C291FA31700BC3F3D /* Protocols.swift in Sources */,
+				3F696281291EE21500BC3F3D /* HomeViewController.swift in Sources */,
+				3F696284291EE64E00BC3F3D /* UIColor.swift in Sources */,
+				3F69628E291FA38000BC3F3D /* HomeViewController+Layout.swift in Sources */,
+				3FF803F4291FBF0F002AE233 /* UIFont.swift in Sources */,
+				3FF803F8291FD3F0002AE233 /* ProfileInfoReusableView.swift in Sources */,
+				3FF803F6291FCC71002AE233 /* AboutSectionReusableView.swift in Sources */,
+				3FEE55292922DF5C008E3135 /* FullPictureCollectionViewCell.swift in Sources */,
+				3FF803FB291FD63E002AE233 /* Mock.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F696273291EDC0B00BC3F3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F696274291EDC0B00BC3F3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F696277291EDC0B00BC3F3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F696278291EDC0B00BC3F3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F69627A291EDC0B00BC3F3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A442E1861178E53FF54F0EF6 /* Pods-DatingApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 2ZRFJYMMPY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DatingApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abhishek.photoroom.DatingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = Wildcard;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F69627B291EDC0B00BC3F3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40F78D12B214E7D166F2A472 /* Pods-DatingApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 2ZRFJYMMPY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DatingApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abhishek.photoroom.DatingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = Wildcard;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F696260291EDC0A00BC3F3D /* Build configuration list for PBXProject "DatingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F696277291EDC0B00BC3F3D /* Debug */,
+				3F696278291EDC0B00BC3F3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F696279291EDC0B00BC3F3D /* Build configuration list for PBXNativeTarget "DatingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F69627A291EDC0B00BC3F3D /* Debug */,
+				3F69627B291EDC0B00BC3F3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F69625D291EDC0A00BC3F3D /* Project object */;
+}
